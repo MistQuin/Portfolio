@@ -1,0 +1,236 @@
+    /* ---------- Body ---------- */
+    body {
+        background-color: #15151E;
+        color: #e8e8ed;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 30px 50px;
+        line-height: 1.6;
+        font-family: 'EB Garamond', serif;
+    }
+    
+    /* ---------- Header / Navigation ---------- */
+    header.site-header {
+        padding-top: 25px;
+    }
+    
+    .p-header{
+        text-align: center;
+        font-family: 'Montserrat', serif;
+    }
+    
+    nav.main-nav {
+        background-color: #1f1f28;
+        border: 1px solid #38383f;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    
+    nav.main-nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    
+    nav.main-nav a {
+        display: block;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        padding: 15px 22px;
+        transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    }
+    
+    nav.main-nav a:hover,
+    nav.main-nav a.active {
+        background-color: #E10600;
+        color: #ffffff;
+    }
+    
+    nav.interest-nav {
+        display: inline-block;
+        background-color: #1f1f28;
+        border: 1px solid #38383f;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+    
+    nav.interest-nav a {
+        display: block;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        padding: 15px 22px;
+        text-decoration: none;
+        transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    }
+    
+    nav.interest-nav a:hover,
+    nav.interest-nav a.active {
+        background-color: #E10600;
+        color: #ffffff;
+    }
+    
+    /* ---------- Fonts ---------- */
+    h1 {
+        color: #E10600;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        border-bottom: 3px solid #ffffff;
+        padding-bottom: 10px;
+        margin: 0 0 5px;
+    }
+    h2 {
+        color: #ffffff;
+        border-left: 5px solid #E10600;
+        padding-left: 12px;
+        margin-top: 45px;
+        font-family: 'Montserrat', sans-serif
+    }
+    
+    h3 {
+        border-bottom: 3px solid #E10600;
+        padding-bottom: 10px;
+        margin: 0 0 5px;
+    }
+    
+    h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: large;
+    }
+
+    h5 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: medium;
+    }
+    
+    /* ---------- Design ---------- */
+    .profile {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .profile-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    
+    .introduction {
+        flex: 1;
+    }   
+    
+    .introduction p {
+        font-family: 'EB Garamond', serif;
+    }
+    
+    .interest {
+        margin-top: 35px;
+    }
+    
+    .interest-cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 15px;
+        margin-top: 15px;
+    }
+    
+    .card {
+        background-color: #1f1f28;
+        border: 1px solid #38383f;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        transition: transform 0.25s ease-out;
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .card:hover {
+        transform: translateY(-5px) scale(1.05);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+    }
+    
+    .card .icon {
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 8px;
+    }
+    
+    .card h3 {
+        text-align: center;
+        margin: 8px 0 5px;
+        color: #E10600;
+        font-family: 'Montserrat', sans-serif
+    }
+    
+    .card p {
+        text-align: center;
+        margin: 0;
+    }
+    
+    
+    img {
+        height: 230px ;
+        width: 230px ;
+        align-items: center;
+        border-radius: 25px;
+    
+    }
+    
+    .table {
+        width: 75%;
+        margin: 20px auto 0;
+        border-collapse: collapse;
+        background-color: #1f1f28;
+        border: 1px solid #38383f;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .table caption {
+        margin-bottom: 10px;
+        color: #e8e8ed;
+        font-family: 'EB Garamond', serif;
+        font-size: 16px;
+    }
+    
+    .table th {
+        background-color: #E10600;
+        color: #ffffff;
+        text-align: left;
+    }
+    
+    .table th,
+    .table td {
+        padding: 12px 15px;
+        border: 1px solid #38383f;
+    }
+    
+    .project {
+        height: 320px ;
+        width: 320px ;
+        align-items: center;
+        border-radius: 25px;
+    }
+
+    /* ---------- Footer ---------- */
+    footer{
+        text-align: center;
+        margin-top: 60px;
+        padding-top: 20px;
+        border-top: 1px solid #38383f;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.85rem;
+        color: #949498;
+    }
